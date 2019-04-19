@@ -1,0 +1,86 @@
+.container-fluid{
+    padding: 0;
+}
+.card{
+    margin: 20px;
+    width: 20rem;
+}
+.header{
+    background-color: #343a40;
+}
+h1{
+    text-align: center;
+    padding: 40px;
+}
+.image-div img{
+    width: 100%;
+    box-shadow: 4px 4px 8px black;
+}
+
+.seasons-div ul li, .cast-div ul li{
+    list-style-type: square;
+}
+h2{
+    padding:20px;
+}
+footer{
+    background-color: #21252A;
+    margin-top: 50px;
+    padding: 0px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(218, 38, 137);
+}
+
+footer a :hover{
+    text-decoration: none;
+    color:  rgb(218, 38, 137);
+}
+
+h3{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    margin: 0px;
+}
+.btn-primary{
+background-color: rgb(218, 38, 137);
+border: none;
+}
+.btn-primary:hover{
+    background-color: rgb(136, 19, 83);
+}
+.searchList{
+    position: absolute;
+    top:52px;
+    right: 400px;
+    width:205px;
+    z-index: 10;
+    background-color: #21252A;
+    color: white;
+    padding: 0px;
+    border-radius: 4px;
+}
+.searchList li{
+    padding: 5px;
+    padding-left: 8px;
+    list-style-type: none;
+    border-bottom:  1px solid white;
+    width: 100%;
+}
+.searchList li:last-child{
+    border: none;
+}
+.form-inline .my-2 .my-lg-0 .ml-auto{
+    position: relative;
+}
+.searchList li:hover{
+    background-color: rgb(218, 38, 137);
+}
+.searchList li a, .searchList li a:link, .searchList li a:visited, .searchList li a:hover{
+    color: white;
+    text-decoration: none;
+}
+

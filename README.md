@@ -15,6 +15,8 @@ To start the project open index.html in Browser
 
 ![Website Preview](./img/tv-shows-preview.PNG?raw=true "Website Preview")
 
+![Website Preview](./img/tv-shows-single-preview.PNG?raw=true "Website Single Page Preview")
+
 
 
 

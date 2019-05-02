@@ -11,4 +11,10 @@ To start the project open index.html in Browser
 * VanillaJS(ES5)
 * AJAX
 
+## Screenshot
+
+![Website Preview](./img/tv-shows-preview.PNG?raw=true "Website Preview")
+
+
+
 

@@ -1,86 +1,80 @@
-.container-fluid{
+body {
+    background-color: rgb(253, 207, 207);
+    font-family: 'Righteous', cursive;
+}
+
+.container-fluid {
     padding: 0;
 }
+
 .card{
-    margin: 20px;
+    margin: 29px;
     width: 20rem;
+    justify-content: space-between;
+    background-color: black;
+    color: pink;
 }
-.header{
-    background-color: #343a40;
+
+.card-body {
+    flex: none;
 }
-h1{
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-hover:hover {
+    color:rgb(248, 143, 161);
+}
+
+.header {
+    background-color: #01361d;
+    margin-bottom: 45px;
+}
+
+h1 {
+    color: black;
     text-align: center;
     padding: 40px;
 }
-.image-div img{
+
+.image-div img {
     width: 100%;
     box-shadow: 4px 4px 8px black;
 }
 
-.seasons-div ul li, .cast-div ul li{
-    list-style-type: square;
-}
-h2{
-    padding:20px;
-}
-footer{
-    background-color: #21252A;
-    margin-top: 50px;
-    padding: 0px;
-    
-}
-footer a{
-    text-decoration: none;
-    color: rgb(218, 38, 137);
+h2 {
+    padding: 30px 0 10px;
 }
 
-footer a :hover{
+footer {
+    background-color: #01361d;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(241, 94, 185);
+}
+
+footer a:hover {
     text-decoration: none;
     color:  rgb(218, 38, 137);
 }
 
-h3{
+h3 {
     text-align: center;
     color: white;
     padding: 40px;
     margin: 0px;
 }
-.btn-primary{
-background-color: rgb(218, 38, 137);
+
+.btn-click {
+background-color: rgb(21, 167, 55);
 border: none;
 }
-.btn-primary:hover{
-    background-color: rgb(136, 19, 83);
-}
-.searchList{
-    position: absolute;
-    top:52px;
-    right: 400px;
-    width:205px;
-    z-index: 10;
-    background-color: #21252A;
-    color: white;
-    padding: 0px;
-    border-radius: 4px;
-}
-.searchList li{
-    padding: 5px;
-    padding-left: 8px;
-    list-style-type: none;
-    border-bottom:  1px solid white;
-    width: 100%;
-}
-.searchList li:last-child{
-    border: none;
-}
-.form-inline .my-2 .my-lg-0 .ml-auto{
-    position: relative;
-}
-.searchList li:hover{
-    background-color: rgb(218, 38, 137);
-}
-.searchList li a, .searchList li a:link, .searchList li a:visited, .searchList li a:hover{
-    color: white;
-    text-decoration: none;
-}
 
+.btn-click:hover {
+    background-color: rgb(7, 243, 74);
+}
